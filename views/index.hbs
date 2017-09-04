@@ -1,0 +1,187 @@
+{{!--
+	• Change icon into favicon
+	• Write case study for OIB
+	• Fix icon placement
+	• Review content for spelling errors
+	• R
+ --}}
+
+{{#extend "scripts"}}
+	<script type="text/javascript">
+		$(document).ready(function(){});
+	</script>
+{{/extend}}
+
+{{#extend "styles"}}
+	<style type="text/css"></style>
+{{/extend}}
+
+<div id="page-wrapper">
+	<!-- Header -->
+		<div id="header-wrapper" class="wrapper">
+			<div id="header">
+
+				<!-- Logo -->
+					<div id="logo">
+						<div id="logo-img"></div>
+						<h1><a href="/">The Ansible Network</a></h1>
+						<p>Think of it as a series of nearby watercoolers;<br class="mobile-hide" />
+						each one attracting a different but similar group of<br class="mobile-hide" />
+						people looking to do good, and do it well.</p>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li data-id="impact"><a href="#">Impact</a></li>
+							<li data-id="features"><a href="#">Features</a></li>
+							<li data-id="members"><a href="#">Members</a></li>
+							<li data-id="join"><a href="#">Join</a></li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+
+	<!-- Impact -->
+		<div id="intro-wrapper" class="wrapper style1" data-anchor="impact">
+			<div class="title">Impact</div>
+			<section id="intro" class="container">
+				<p class="style1">
+					The Ansible Network provides a communication channel for community<br class="mobile-hide" />
+					managers to stay in touch with their core team and interact<br class="mobile-hide" />
+					with their volunteers to help take the headache out of helping people.
+				</p>
+				<p class="style2">
+					The foundation of collaboration<br class="mobile-hide" />
+					is open and easy communication.
+				</p>
+				<p class="style1">
+					The Ansible Network brings small organizations<br class="mobile-hide" />
+					together in a common space to promote cross-pollination<br class="mobile-hide" />
+					of audiences and skills for compounded benefit to everyone.
+				</p>
+				{{!-- <ul class="actions">
+					<li><a href="#" class="button style3 big">Proceed</a></li>
+				</ul> --}}
+			</section>
+		</div>
+
+	<!-- Features -->
+		<div class="wrapper style2"  data-anchor="features">
+			<div class="title">Features</div>
+				<div id="main" class="container">
+					<section id="features">
+						<header class="style1">
+							<h2>A very special Slack team</h2>
+							<p>Customized and improved by a coalition of community leaders.</p>
+						</header>
+
+						<div class="feature-list">
+
+							<div class="row">
+								<div class="6u 12u(mobile)">
+									<section>
+										<h3 class="icon fa-cubes">Built on a great platform</h3>
+										<p><a href="https://slack.com/" target="_blank">Slack</a> is a messaging app trusted by teams small to large. They even made a <a href="https://www.youtube.com/watch?v=WdXgjIwA-mw" target="_blank">snappy little video</a> to help explain why it's so great. {{!-- So, we built on that with a number of custom bots an integrations to bring you the best communications platform we can. --}}</p>
+									</section>
+								</div>
+								<div class="6u 12u(mobile)">
+									<section>
+										<h3 class="icon fa-comment">Make sure you're heard</h3>
+										<p>Don't bury your messages in an inbox under a string of impossible to follow forwards, CCs, and all those marketing emails we all love.</p>
+									</section>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="6u 12u(mobile)">
+									<section>
+										<h3 class="icon fa-gavel">Safe and clean</h3>
+										<p>We've published a Code of Conduct, Harassment Policy, and built some custom tools to help maintain a safe environment for collaboration free from harassors, bigots, and trolls.</p>
+									</section>
+								</div>
+								<div class="6u 12u(mobile)">
+									<section>
+										<h3 class="icon fa-home">Branded invitation portal</h3>
+										<p>Every organization that joins gets it's own branded invitation portal. We don't want your members to feel as though they're being sent somewhere unexpected or unendorsed.</p>
+									</section>
+								</div>
+							</div>
+{{!-- users --}}
+							<div class="row">
+								<div class="6u 12u(mobile)">
+									<section>
+										<h3 class="icon fa-lock">Private conversations</h3>
+										<p>Collaboration is great, but you're still going to need a quiet place for you to talk to your core team. With Private Groups, you can invite who you want and keep your internal chatter private.</p>
+									</section>
+								</div>
+								<div class="6u 12u(mobile)">
+									<section>
+										<h3 class="icon fa-bullhorn">Increase your audience</h3>
+										<p>The whole idea here is cross-pollination. We want members of one organization to see what's happening all the other orgs in town.</p>
+									</section>
+								</div>
+							</div>
+
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+	<!-- Members -->
+		<div class="wrapper style3" data-anchor="members">
+			<div class="title">Members</div>
+			<div id="highlights" class="container">
+
+				<div class="row 150%">
+					<div class="4u 12u(mobile)">
+						<section class="highlight">
+							<a href="#" class="image featured"><img src="images/dw-logo.jpg" alt="" /></a>
+							{{!-- <h3><a href="#">Dev Workshop</a></h3> --}}
+							<p>Dev Workshop is a community focused workshop series and annual conference focusing on hands-on education for those who have exited a traditional university or job leaving them without the skills they need to get another job. Their mission is to take adults from "almost ready to job ready."</p>
+							<ul class="actions">
+								<li><a href="http://www.meetup.com/Dev-Workshop-Indy/" class="button style1" target="_blank">Learn More</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="4u 12u(mobile)">
+						<section class="highlight">
+							<a href="#" class="image featured"><img src="images/oib-logo.jpg" alt="" /></a>
+							{{!-- <h3><a href="#">The Open Indy Brigade</a></h3> --}}
+							<p>The Open Indy Brigade is Indy's local <a href="http://www.codeforamerica.org/" target="_blank">Code for America</a> chapter provides a central hub of those interested in using open data and open-source development to improve their communities.</p>
+							<ul class="actions">
+								<li><a href="http://openindybrigade.com/" class="button style1" target="_blank">Learn More</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="4u 12u(mobile)">
+						<section class="highlight">
+							<a href="#" class="image featured"><img src="images/gdi-logo.jpg" alt="" /></a>
+							{{!-- <h3><a href="#">Girl Develop It Indy</a></h3> --}}
+							<p>Girl Develop It is an international organization, that exists to provide affordable and accessible programs to women who want to learn software development through mentorship and hands-on instruction.</p>
+							<ul class="actions">
+								<li><a href="http://www.meetup.com/Girl-Develop-It-Indianapolis/" class="button style1" target="_blank">Learn More</a></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+
+				{{!--
+					• CreativeMornings Indy
+						- CreativeMornings is a breakfast lecture series for the creative community.
+					• Tech Meetups
+					• Nextech
+					• Techpoint Foundation for Youth
+					• Designer &amp; Developer Resources
+					• AV Lending Library
+					• Direct Employers Foundation
+					• Artist Community Boards
+					• Literary Community
+					• Indy Events & Jobs
+					• Designer Portfolio Builder Group
+				--}}
+
+			</div>
+		</div>
+</div>
