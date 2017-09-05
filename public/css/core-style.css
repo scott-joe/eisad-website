@@ -2284,6 +2284,10 @@ ul.children .comment-content {
 * Gallery Area CSS
 */
 
+.gallery_area {
+    background-color: #f6f6f6;
+}
+
 .gallery_menu .portfolio-menu button {
     background-color: transparent;
     border: medium none;
