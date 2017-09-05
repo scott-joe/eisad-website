@@ -1,0 +1,23 @@
+white-pure		#FFFFFF
+white-bright	#FAFAFA
+white-base		#E8E8E8
+white-dark		#D1D1D1
+
+black-pure		#000000
+black-bright	#423E3E
+black-base		#231F20
+black-dark		#141313
+
+blue-bright		#28D5F5
+blue-base		#5FAAC7
+blue-dark		#1B7DA4
+
+green-bright	#99EB6A
+green-base		#94E864
+green-dark		#69BA3A
+
+red-bright		#FC4444
+red-base		#E86464
+red-dark		#B84D4D
+
+Slack Theme: #E8E8E8,#D1D1D1,#5FAAC7,#ffffff,#D1D1D1,#231F20,#69ba3a,#E86464

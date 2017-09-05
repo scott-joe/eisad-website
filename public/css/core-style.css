@@ -423,7 +423,7 @@ img {
 }
 
 .section_heading>h3 {
-    color: #5faac7;
+    color: #1B7DA4;
     margin-bottom: 0;
     text-transform: capitalize;
     font-weight: 500;
@@ -597,7 +597,9 @@ h2.default-description {
 }
 
 .default-button,
-.default-button-green {
+.default-button-green
+.default-button-red
+.default-button-blue {
     background-color: #fff;
     border-radius: 30px;
     -webkit-box-shadow: none;
@@ -613,14 +615,36 @@ h2.default-description {
 }
 
 .default-button-green {
-    background-color: #5faac7;
+    background-color: #94E864;
     color: #fff;
 }
 
 .default-button-green:hover,
 .default-button-green:focus {
-    background-color: #fff;
-    color: #5faac7;
+    background-color: #99EB6A;
+    color: #fff;
+}
+
+.default-button-red {
+    background-color: #E86464;
+    color: #fff;
+}
+
+.default-button-red:hover,
+.default-button-red:focus {
+    background-color: #FC4444;
+    color: #fff;
+}
+
+.default-button-blue {
+    background-color: #5FAAC7;
+    color: #fff;
+}
+
+.default-button-blue:hover,
+.default-button-blue:focus {
+    background-color: #28D5F5;
+    color: #fff;
 }
 
 
@@ -703,7 +727,7 @@ h2.default-description {
 }
 
 .single_feature:hover .feature_text h4 {
-    color: #5faac7;
+    color: #1B7DA4;
 }
 
 .single_feature:hover .feature_img i {
@@ -727,7 +751,7 @@ h2.default-description {
 */
 
 .about_us_text>h3 {
-    color: #5faac7;
+    color: #1B7DA4;
 }
 
 .about_us_thumb {
@@ -968,7 +992,7 @@ button.close {
 }
 
 .single_part_content h3 {
-    color: #5faac7;
+    color: #1B7DA4;
     text-align: center;
     text-transform: capitalize;
     -webkit-transition-duration: 500ms;
@@ -1431,7 +1455,7 @@ button.close {
 }
 
 .cool_fact_text>h2 {
-    color: #5faac7;
+    color: #1B7DA4;
 }
 
 
@@ -1680,7 +1704,7 @@ span.accor-open {
 }
 
 .single_timeline_block .timeline_main_point {
-    background-color: #5faac7;
+    background-color: #1B7DA4;
     border: 3px solid #fff;
     border-radius: 50%;
     color: #fff;
@@ -1832,7 +1856,7 @@ ol.breadcrumb {
 }
 
 .page_title>h3 {
-    color: #5faac7;
+    color: #1B7DA4;
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -2369,7 +2393,7 @@ ul.children .comment-content {
 }
 
 .gallery_info h5 {
-    color: #5faac7;
+    color: #1B7DA4;
     display: inline-block;
     margin-bottom: 5px;
     text-transform: capitalize;
@@ -3689,7 +3713,7 @@ select option {
 }
 
 .education-version .single_upcoming_event:hover .single_upcoming_event_des .title>h4 {
-    color: #5faac7;
+    color: #1B7DA4;
 }
 
 .education-version .single_upcoming_event_des .title {
@@ -3709,7 +3733,7 @@ select option {
 }
 
 .education-version .why_choose_us_text>h3 {
-    color: #5faac7;
+    color: #1B7DA4;
     font-weight: 500;
 }
 
@@ -3728,7 +3752,7 @@ select option {
 .education-version .testimonial_text>p,
 .education-version .why_choose_us_text>a:hover,
 .education-version .why_choose_us_text>a:focus {
-    background-color: #5faac7;
+    background-color: #1B7DA4;
     color: #fff;
 }
 
@@ -7767,7 +7791,7 @@ app_landing_version.testimonial_area .testimonial_text {
 }
 
 .agency_version.cool_facts_area {
-    background-color: #5faac7;
+    background-color: #1B7DA4;
     text-align: center;
 }
 
