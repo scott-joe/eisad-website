@@ -16,7 +16,7 @@
     "express-handlebars": "*",
     "fuel": "^0.4.1",
     "fuel-soap": "~1.0.0",
-    "gm": "~1.17.0",
+    "gm": "~1.21.0",
     "hbs": "*",
     "method-override": "~2.3.0",
     "moment": "~2.8.3",
