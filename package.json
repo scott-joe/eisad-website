@@ -23,7 +23,7 @@
     "multer": "~0.1.6",
     "nodemailer": "^1.4.0",
     "request": "~2.47.0",
-    "sanitize-html": "^1.10.0",
+    "sanitize-html": "^2.3.2",
     "underscore": "~1.7.0"
   },
   "devDependencies": {
